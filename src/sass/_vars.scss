@@ -1,0 +1,10 @@
+$text-color: #343030;
+$btn-bg: #403432;
+$btn-color: #F4F6F9;
+$placeholder: #9F9F9F;
+
+@mixin text($weight,$size) {
+    font-weight: $weight;
+    font-size: $size;
+    line-height: 150%;
+}

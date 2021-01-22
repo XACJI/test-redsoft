@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Тестовое задание</title>
+</head>
+<body class="page">
+    @@include('./_header.html')
+    <main class="main">
+        <h1 class="title-h1">Заголовок h1</h1>
+        <div class="container">
+            <h2 class="title">Картины эпохи Возрождения</h2>
+            <div class="products">
+                <div class="products__item">
+                    <div class="products__img-wrap">
+                        <img src="image/picture-1.jpg" alt="" class="products__img">
+                    </div>
+                    <h3 class="products__title">«Рождение Венеры» Сандро Боттичелли</h3>
+                    <div class="products__down">
+                        <div class="products__price">
+                            <span class="products__price-old">2 000 000 $</span>
+                            <span class="products__price-current">1 000 000 $</span>
+                        </div>
+                        <a href="" class="btn products__btn">Купить</a>
+                    </div>
+                </div>
+                <div class="products__item">
+                    <div class="products__img-wrap">
+                        <img src="image/picture-2.jpg" alt="" class="products__img">
+                    </div>
+                    <h3 class="products__title">«Тайная вечеря»  Леонардо да Винчи</h3>
+                    <div class="products__down">
+                        <div class="products__price">
+                            <span class="products__price-current">3 000 000 $</span>
+                        </div>
+                        <a href="" class="btn products__btn">Купить</a>
+                    </div>
+                </div>
+                <div class="products__item products__item--basket">
+                    <div class="products__img-wrap">
+                        <img src="image/picture-3.jpg" alt="" class="products__img">
+                    </div>
+                    <h3 class="products__title">«Сотворение Адама» Микеланджело</h3>
+                    <div class="products__down">
+                        <div class="products__price">
+                            <span class="products__price-old">6 000 000 $</span>
+                            <span class="products__price-current">5 000 000 $</span>
+                        </div>
+                        <a href="" class="btn products__btn"><img src="image/check.svg" alt="" class="products__btn-img">В корзине</a>
+                    </div>
+                </div>
+                <div class="products__item products__item--sold">
+                    <div class="products__img-wrap">
+                        <img src="image/picture-4.jpg" alt="" class="products__img">
+                    </div>
+                    <h3 class="products__title">«Урок анатомии»  Рембрандт</h3>
+                    <div class="products__down">
+                        <div class="products__price">
+                            <span class="products__price-sold">Продана на аукционе</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    @@include('./_footer.html')
+</body>
+</html>
